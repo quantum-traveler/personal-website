@@ -4,31 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ayan Sarma</title>
-    <script type="text/javascript" async
-        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
-    </script>
     <script src="https://unpkg.com/hyperscript.org@0.9.14"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    <style>
+        .dark {background-color: gray}
+    </style>
+
 </head>
 <body>
     <nav>
         <a href="/about/">About</a>
         <p>Email: <a href="mailto:ayan@sarmacomputing.com">ayan@sarmacomputing.com</a></p>
-        <a href="/code/">Programming</a>
+        <a href="/blog/">Blog</a>
     </nav>
 
     <h1>Hello!</h1>
     
-    <button _="on click toggle .red on me">
-        Click Me
-    </button>
+    <button _="on every click set x to 10 then log x">Click Me</button>
+    <button style="transition: all 800ms ease-in"
+       _="on click add .dark into the body then settle then remove .red">
+Flash Red
+</button>
+
+        
       
 
 
     <h2>Blog</h2>
-    <p>This site will contain my writing and projects relating to my various interests: drawing, animation, physics, 
-        math, programming, etc. I hope to write up a post every day. Please mind the formatting, I have yet to decide on 
-        a hugo template I want to implement.
-    </p>
+
 
 
     <hr>
@@ -44,9 +47,6 @@
         <li>Topology, geometry and gauge fields: Foundations - Naber</li>
         <li>Mathematical gauge theory - Hamilton</li>
     </ul>
-    <hr>
-    
-
     <hr>
 
     <h3></h3>
